@@ -34,7 +34,6 @@ body {
   color: #f4f4fd;
 }
 .menu-link {
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,6 +42,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   /* NAVY BLUE */
+}
+.logo-link:hover,
+.logo-link:focus {
+  color: #404bbf;
 }
 .modal-open-btn {
   box-sizing: border-box;
