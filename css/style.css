@@ -47,6 +47,10 @@ body {
 .logo-studio:focus {
   color: #404bbf;
 }
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+}
 .modal-open-btn {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
