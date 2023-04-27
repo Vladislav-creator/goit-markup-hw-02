@@ -112,7 +112,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
-
+  cursor: pointer;
   align-items: center;
   letter-spacing: 0.04em;
 
@@ -123,6 +123,10 @@ body {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.button-on-hero:hover,
+.button-on-hero:focus {
+  background-color: #404bbf;
 }
 .main-title {
   font-style: normal;
