@@ -159,5 +159,8 @@ body {
   color: var(--text-color);
 }
 .footer {
-  background: #2e2f42;
+  background: var(--text-color);
+}
+.hero {
+  background: var(--text-color);
 }
