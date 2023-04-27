@@ -1,6 +1,7 @@
 :root {
   --background-color: #ffffff;
   --text-color: #2e2f42;
+  --color-brand: #4d5ae5;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -46,17 +47,13 @@ body {
 .modal-open-btn {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  /* Auto layout */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-brand);
   cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
 
-  /* CLOUD */
-
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   /* CORNFLOWER */
 
   border: 1px solid #e7e9fc;
