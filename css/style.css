@@ -1,3 +1,11 @@
+:root {
+  --brand-color: #ffffff;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: var(--brand-color);
+}
 ol,
 ul {
   list-style: none;
@@ -5,13 +13,7 @@ ul {
 a {
   text-decoration: none;
 }
-/*.main-page {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
-}*/
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -30,8 +32,6 @@ a {
 }
 .menu-link {
   /* Body Medium */
-
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -44,7 +44,7 @@ a {
 }
 .modal-open-btn {
   box-sizing: border-box;
-
+  font-family: 'Roboto', sans-serif;
   /* Auto layout */
   cursor: pointer;
   display: flex;
@@ -79,7 +79,6 @@ a {
   top: 24px;
 }
 .text-description {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -88,8 +87,6 @@ a {
   letter-spacing: 0.02em;
 
   /* SLATE */
-
-  color: #434455;
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
@@ -130,7 +127,6 @@ a {
   border-radius: 4px;
 }
 .main-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -142,7 +138,6 @@ a {
   letter-spacing: 0.02em;
 }
 .subtitle {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -157,9 +152,6 @@ a {
 }
 .section-title {
   /* Header 2 */
-
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
