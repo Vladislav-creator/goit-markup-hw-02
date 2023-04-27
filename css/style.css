@@ -10,10 +10,9 @@ body {
 .list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -34,7 +33,7 @@ a {
   color: #f4f4fd;
 }
 .menu-link {
-  /* Body Medium */
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -64,21 +63,18 @@ a {
   border-radius: 4px;
 }
 .address-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-style: normal;
-  position: absolute;
-  left: 940px;
-  top: 24px;
-  width: 153px;
-  height: 24px;
-  /* Body */
 }
 .address-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-style: normal;
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
 }
 .text-description {
   font-weight: 400;
