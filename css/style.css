@@ -1,10 +1,11 @@
 :root {
-  --brand-color: #ffffff;
+  --background-color: #ffffff;
+  --text-color: #2e2f42;
 }
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
-  background-color: var(--brand-color);
+  background-color: var(--background-color);
 }
 ol,
 ul {
@@ -28,7 +29,7 @@ a {
   color: #4d5ae5;
 }
 .logo-studio {
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .menu-link {
@@ -39,9 +40,8 @@ a {
   /* identical to box height, or 150% */
 
   letter-spacing: 0.02em;
-
+  color: var(--text-color);
   /* NAVY BLUE */
-  color: #2e2f42;
 }
 .modal-open-btn {
   box-sizing: border-box;
@@ -148,8 +148,7 @@ a {
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--text-color);
 }
 .section-title {
   /* Header 2 */
@@ -163,6 +162,5 @@ a {
   text-transform: capitalize;
 
   /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--text-color);
 }
