@@ -31,7 +31,9 @@ a {
 .logo-studio {
   color: var(--text-color);
 }
-
+.logo-studio-footer {
+  color: #f4f4fd;
+}
 .menu-link {
   /* Body Medium */
   font-weight: 500;
@@ -163,4 +165,7 @@ a {
 
   /* NAVY BLUE */
   color: var(--text-color);
+}
+.footer {
+  background: #2e2f42;
 }
