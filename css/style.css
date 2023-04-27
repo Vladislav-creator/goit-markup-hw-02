@@ -86,7 +86,7 @@ body {
 .modal-open-btn:hover,
 .modal-open-btn:focus {
   /* Auto layout */
-
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
