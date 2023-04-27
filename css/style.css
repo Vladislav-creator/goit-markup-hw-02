@@ -43,8 +43,8 @@ body {
   color: var(--text-color);
   /* NAVY BLUE */
 }
-.logo:hover,
-.logo:focus {
+.logo-studio:hover,
+.logo-studio:focus {
   color: #404bbf;
 }
 .modal-open-btn {
