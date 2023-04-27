@@ -25,10 +25,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-color);
-}
-.logo-web {
   color: var(--color-brand);
+}
+.logo-studio {
+  color: var(--text-color);
 }
 .logo-studio-footer {
   color: #f4f4fd;
