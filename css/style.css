@@ -25,10 +25,10 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-studio {
   color: var(--text-color);
+}
+.logo-web {
+  color: var(--color-brand);
 }
 .logo-studio-footer {
   color: #f4f4fd;
@@ -55,7 +55,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-brand);
   cursor: pointer;
-  font-weight: 500
+  font-weight: 500;
   background-color: #f4f4fd;
   /* CORNFLOWER */
 
