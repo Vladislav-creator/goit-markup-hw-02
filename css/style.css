@@ -55,7 +55,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-brand);
   cursor: pointer;
-
+  font-weight: 500
   background-color: #f4f4fd;
   /* CORNFLOWER */
 
