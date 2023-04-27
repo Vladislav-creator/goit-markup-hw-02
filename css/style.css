@@ -7,8 +7,7 @@ body {
   color: #434455;
   background-color: var(--background-color);
 }
-ol,
-ul {
+.list {
   list-style: none;
 }
 a {
