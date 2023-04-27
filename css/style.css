@@ -171,3 +171,6 @@ body {
 .hero {
   background: var(--text-color);
 }
+.background-four-section {
+  background-color: #f4f4fd;
+}
