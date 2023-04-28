@@ -72,10 +72,8 @@ body {
   color: var(--main-color);
 }
 
-.address-mail:hover,
-.address-tel:hover,
-.address-mail:focus,
-.address-tel:focus {
+.address:focus,
+.address:focus {
   color: #404bbf;
 }
 .text-description {
