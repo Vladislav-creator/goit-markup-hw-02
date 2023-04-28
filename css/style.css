@@ -72,7 +72,7 @@ body {
   color: var(--main-color);
 }
 
-.address:focus,
+.address:hover,
 .address:focus {
   color: #404bbf;
 }
