@@ -63,8 +63,8 @@ body {
 .address-mail-tel {
   font-style: normal;
 }
-.address-mail,
-.address-tel {
+
+.address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
