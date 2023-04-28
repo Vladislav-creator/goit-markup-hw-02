@@ -87,11 +87,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
-
+  color: var(--main-color);
   letter-spacing: 0.02em;
-
-  /* SLATE */
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
