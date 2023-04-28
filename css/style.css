@@ -43,8 +43,10 @@ body {
   color: var(--text-color);
   /* NAVY BLUE */
 }
-.logo.logo-studio:hover,
-.logo.logo-studio:focus {
+.logo,
+.logo-studio:hover,
+.logo,
+.logo-studio:focus {
   color: #404bbf;
 }
 
