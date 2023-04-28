@@ -2,10 +2,11 @@
   --background-color: #ffffff;
   --text-color: #2e2f42;
   --color-brand: #4d5ae5;
+  --main-color: #434455; 
 }
 body {
   font-family: Roboto, sans-serif;
-  color: #434455;
+  color: var(--main-color)
   background-color: var(--background-color);
 }
 .list {
