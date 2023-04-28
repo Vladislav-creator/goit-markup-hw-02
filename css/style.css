@@ -43,14 +43,11 @@ body {
   color: var(--text-color);
   /* NAVY BLUE */
 }
-.logo-studio:hover,
-.logo-studio:focus {
+.logo.logo-studio:hover,
+.logo.logo-studio:focus {
   color: #404bbf;
 }
-.logo:hover,
-.logo:focus {
-  color: #404bbf;
-}
+
 .modal-open-btn {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
