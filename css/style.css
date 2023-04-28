@@ -79,7 +79,7 @@ body {
 }
 .address-mail:hover,
 .address-tel:hover,
-.address-mail:hover,
+.address-mail:focus,
 .address-tel:focus {
   color: #404bbf;
 }
