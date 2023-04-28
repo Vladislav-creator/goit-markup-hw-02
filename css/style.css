@@ -63,13 +63,28 @@ body {
   border-radius: 4px;
 }
 .address-mail-tel {
+  font-style: normal;
+}
+.address-mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
+  color: var(--main-color);
 }
-
+.address-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.address-mail:hover,
+.address-tel:hover,
+.address-mail:hover,
+.address-tel:focus {
+  color: #404bbf;
+}
 .text-description {
   font-weight: 400;
   font-size: 16px;
