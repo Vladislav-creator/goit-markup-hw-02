@@ -44,7 +44,16 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu-address {
+  display: flex;
+}
 .modal-open-btn {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -62,6 +71,7 @@ body {
 }
 .address-mail-tel {
   font-style: normal;
+  display: flex;
 }
 
 .address {
